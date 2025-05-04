@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 12px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #fce2c4; /* El color del fondo de la página web */
+    background-image: url("https://static.wikia.nocookie.net/lalaloopsyland/images/2/2d/Suzette_Pattern.png/revision/latest?cb=20120508000222.png");
+    color: #333333; /* El color del texto*/ 
+}
+h1 {
+    color: #6f4d3e; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+
+img {
+    border-radius: 200;
+}
+
+hr {
+    border-width: 2px;
+    border-color: #6f4d3e80;
+}
+
+.fija1 {
+    position: fixed;
+      top: 218px; /* Distancia desde la parte superior de la ventana */
+      left: 1025px; /* Distancia desde la izquierda */
+      max-width: 330px; /* Tamaño de la imagen */
+      z-index: 1000; /* Controla qué imagen queda "encima" */
+}
+.fija2 {
+  position: fixed;
+    top: 253px; /* Distancia desde la parte superior de la ventana */
+    left: 1015px; /* Distancia desde la izquierda */
+    max-width: 335px; /* Tamaño de la imagen */
+    z-index: 1000; /* Controla qué imagen queda "encima" */
+}
+.fija3 {
+  position: fixed;
+    top: 160px; /* Distancia desde la parte superior de la ventana */
+    left: 1060px; /* Distancia desde la izquierda */
+    max-height: 480px; /* Tamaño de la imagen */
+    z-index: 1000; /* Controla qué imagen queda "encima" */
+}
+.fija4 {
+  position: fixed;
+    top: 250px; /* Distancia desde la parte superior de la ventana */
+    left: 972px; /* Distancia desde la izquierda */
+    max-height: 700px; /* Tamaño de la imagen */
+    z-index: 1000; /* Controla qué imagen queda "encima" */
+}
+
+.twitter-embed-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente, si es necesario */
+    padding: 20px;
+    height: 150;
+  }
+
+.importante {
+    color: #ff2600;
+}
+
+.animacion {
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blueviolet;
+    }
+}
+h1:hover { animation: color-change 3s infinite; }
